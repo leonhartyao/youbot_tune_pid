@@ -59,9 +59,9 @@ Since it is a cascade controller, you have to start tuning with inner loop. It m
 ### current loop
 
 The current controller should be tested without moving the joint. PID parameters could be tuned with respect to step response. We normally use a simple I-controller for current loop. 
-Disable arm calibration in youbot driver if you want joints stay.
+Disable arm calibration in youbot ros wrapper if you want joints stay (YouBotOODLWrapper.cpp line 154: calibrateManipulator()).
 
-[WARNING]: You have to move the joint, which will be tested, to its stop and give the input in the direction that joint will not leave its stop.  Otherwise hardware damage may occur! 
+[WARNING]: You have to move the joint, which will be tested, to its stop manually after switch off motors per service: /arm_1/switchOffMotors and give the input in the direction that joint will not leave its stop.  Otherwise hardware damage may occur! 
 [WARNING]: Joint 3 has opposite direction with compare to others.
 
 Here are step response before and after tuning:
