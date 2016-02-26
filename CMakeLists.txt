@@ -8,9 +8,8 @@ find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
 )
 
+catkin_package(
  CATKIN_DEPENDS 
- moveit_core 
- moveit_ros_planning_interface
  geometry_msgs
  brics_actuator
 )
