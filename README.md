@@ -81,7 +81,5 @@ A example before and after tuning:
 
 ### position loop
 
-  ![alt tag](http://i67.tinypic.com/110gg2c.png)
-
 a example after tuning:
   ![alt tag](http://i63.tinypic.com/2h5jg9s.png)
