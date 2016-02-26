@@ -83,5 +83,5 @@ A example before and after tuning:
 
 For position loop a simple P-controller will be regularly configured. 
 
-A example after tuning:
+A example after tuning (ramp generator enabled):
   ![alt tag](http://i63.tinypic.com/2h5jg9s.png)
