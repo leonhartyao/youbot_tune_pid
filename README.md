@@ -33,7 +33,7 @@ Additionally, you need an adapted version of the ros wrapper of the driver which
 
 this is an adapted version, which provides torque command interface.
 
-youBot_Arm_configurator is uses to configure parameters.
+youBot_Arm_configurator is used to configure parameters.
 
 rqt_plot package is used to visualize responses.
 
@@ -81,5 +81,7 @@ A example before and after tuning:
 
 ### position loop
 
-a example after tuning:
+For position loop a simple P-controller will be regularly configured. 
+
+A example after tuning:
   ![alt tag](http://i63.tinypic.com/2h5jg9s.png)
