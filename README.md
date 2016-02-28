@@ -24,7 +24,7 @@ yoBot driver:
 
 The brics_actuator packages:
 
-    sudo apt-get install ros-hydro-brics-actuator
+    sudo apt-get install ros-insigo-brics-actuator
     
 Additionally, you need an adapted version of the ros wrapper of the driver which you have to clone into the src folder of your catkin workspace
 
